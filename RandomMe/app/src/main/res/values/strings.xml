@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">RandomMe</string>
     <string name="action_settings">Settings</string>
+    <string name="txtName">Halil Radogoshi</string>
+    <string name="btnLabel">Random info</string>
+    <string name="imgDescription">Photo of Halil Radogoshi</string>
 </resources>

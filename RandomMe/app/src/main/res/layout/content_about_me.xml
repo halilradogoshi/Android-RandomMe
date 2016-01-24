@@ -12,4 +12,30 @@
     tools:context="com.dovelaqm.randomme.AboutMe"
     tools:showIn="@layout/activity_about_me">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txtName"
+        android:id="@+id/aboutTextView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnLabel"
+        android:id="@+id/randomButton"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/aboutTextView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/halilr"
+        android:id="@+id/photoImageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/imgDescription" />
 </RelativeLayout>
