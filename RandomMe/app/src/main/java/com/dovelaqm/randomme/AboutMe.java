@@ -8,8 +8,41 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import java.util.Random;
 
 public class AboutMe extends AppCompatActivity {
+
+
+    //Create a string array with 10 properties
+    private String[] aboutMe = {
+            "Helpfull person",
+            "Loves to code in Android",
+            "Very helpful friend",
+            "Makes thing done",
+            "Very enthusiastic person",
+            "Learning to be entrepreour",
+            "Learn things very fast",
+            "Expert in Knowledge Management",
+            "Expert in Capacity Devleopment",
+            "Can fly one second at time"};
+
+
+    private Random rand = new Random();
+    
+    //Create the method to generate random string
+    public void RandomString(View view){
+
+        int arrayIndex = new Random().nextInt(aboutMe.length);
+        String newText = aboutMe[arrayIndex];
+        TextView aboutTextView = (TextView)findViewById(R.id.aboutTextView);
+        aboutTextView.setText(newText);
+
+    }
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
