@@ -17,20 +17,20 @@ public class AboutMe extends AppCompatActivity {
 
     //Create a string array with 10 properties
     private String[] aboutMe = {
-            "Helpfull person",
+            "Helpful person",
             "Loves to code in Android",
             "Very helpful friend",
             "Makes thing done",
             "Very enthusiastic person",
-            "Learning to be entrepreour",
+            "Learning to be entrepreneur",
             "Learn things very fast",
             "Expert in Knowledge Management",
-            "Expert in Capacity Devleopment",
-            "Can fly one second at time"};
+            "Expert in Capacity Development",
+            "Can fly one second at a time"};
 
 
     private Random rand = new Random();
-    
+
     //Create the method to generate random string
     public void RandomString(View view){
 
